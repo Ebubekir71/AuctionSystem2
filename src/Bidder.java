@@ -2,6 +2,7 @@ public class Bidder implements BidListener{
     String name;
 
     public String getName() {
+
         return name;
     }
 

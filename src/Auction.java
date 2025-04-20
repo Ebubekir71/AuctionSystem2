@@ -9,6 +9,7 @@ public class Auction {
     List<BidListener> listeners = new ArrayList<>();
 
 
+
     void start() {
         running = true;
     }
@@ -30,6 +31,7 @@ public class Auction {
     void notifyListeners(String message) {
         for (BidListener listener : listeners) {
             listener.notifyBidUpdate(message);
+
         }
     }
 
