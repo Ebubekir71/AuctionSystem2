@@ -20,6 +20,7 @@ public class Auction {
         if (!running) {
             return;
         } else if (currentBid < amount) {
+
             currentBid = amount;
             highestBidder = bidder;
 
