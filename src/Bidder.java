@@ -4,6 +4,7 @@ public class Bidder implements BidListener{
     public String getName() {
 
 
+
         return name;
     }
 
