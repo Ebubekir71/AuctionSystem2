@@ -10,6 +10,7 @@ public class Auction {
 
 
 
+
     void start() {
         running = true;
     }
