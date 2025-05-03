@@ -5,6 +5,7 @@ public class Bidder implements BidListener{
 
 
 
+
         return name;
     }
 
