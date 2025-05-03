@@ -9,6 +9,7 @@ public class AuctionTimer implements Runnable{
             auction.stop();
 
 
+
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
